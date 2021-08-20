@@ -1,0 +1,32 @@
+<p>exo1 works!</p>
+
+<p>
+    Sur base d'un nouveau composant, créer un compo exos1 : celui ci devra permettre l'affichage d'un temps DONNER en seconde, et l'affichera en JHSM !!!
+
+    <br> -> utilisation d'un pipe custom requis !!!
+    
+    <br> -> bonus, gérer les (s) de jour(s) heure(s), etc ....
+</p>
+
+<div class="row">
+    <div class="col s4 offset-s1">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Veuillez indiquer le temps en seconde</span>
+              <input type="number" [(ngModel)]="tempsSec">
+            </div>
+          </div>
+    </div>
+
+    <div class="col s4 offset-s2">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Temps formaté</span>
+              <p>{{ tempsSec | formatDate }}</p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+

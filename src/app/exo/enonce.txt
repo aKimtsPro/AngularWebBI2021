@@ -1,0 +1,4 @@
+Créez une directive avec pour selector 'showLivre'
+qui permettra, en gardant le template fourni et 
+le component fourni d'afficher ou cacher 
+la description du livre passé en input
