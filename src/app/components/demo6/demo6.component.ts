@@ -6,9 +6,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Demo6Component implements OnInit {
 
+  nom: string;
+  couleurLabel: string;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onEmit( couleur: string ){
+    console.log( "une info a été emise : " + couleur );
+    this.couleurLabel = couleur;
   }
 
 }

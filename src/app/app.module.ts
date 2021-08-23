@@ -21,6 +21,8 @@ import { Exo1Component } from './components/correction/exo1/exo1.component';
 import { FormatDatePipe } from './components/correction/exo1/forma-date.pipe';
 import { Exo2Component } from './components/correction/exo2/exo2.component';
 import { DemoDirDirective } from './components/demo5/demo-dir.directive';
+import { RecapComponent } from './components/recap/recap.component';
+import { Enfant1Component } from './components/demo6/enfant1/enfant1.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { DemoDirDirective } from './components/demo5/demo-dir.directive';
     Exo1Component,
     FormatDatePipe,
     Exo2Component,
-    DemoDirDirective
+    DemoDirDirective,
+    RecapComponent,
+    Enfant1Component
   ],
   imports: [
     BrowserModule,

@@ -11,4 +11,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onEmitter(message){
+    alert(message);
+  }
+
 }

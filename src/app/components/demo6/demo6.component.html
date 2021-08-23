@@ -1,1 +1,6 @@
-<p>demo6 works!</p>
+<h2>La communication parent/enfant</h2>
+
+<label [style.color]="couleurLabel ? couleurLabel : ''" >Quel est votre nom ? </label>
+<input type="text" [(ngModel)]="nom">
+
+<app-enfant1 nomInput="bonjour les amis" (couleurEmitter)="onEmit( $event )"></app-enfant1>
